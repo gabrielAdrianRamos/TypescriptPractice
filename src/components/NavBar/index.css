@@ -1,0 +1,15 @@
+.navbar {
+  background-color: azure;
+  padding: 5px;
+  display: flex;
+  padding-left: 10px;
+}
+
+.navbar .button {
+  color: gray;
+  cursor: pointer;
+}
+
+.navbar .button.selected {
+  color: orange;
+}

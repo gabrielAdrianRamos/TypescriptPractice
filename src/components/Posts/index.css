@@ -1,0 +1,13 @@
+.post {
+  background-color: white;
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.post .date {
+  font-style: italic;
+  color: lightgray;
+  font-size: 8px;
+}

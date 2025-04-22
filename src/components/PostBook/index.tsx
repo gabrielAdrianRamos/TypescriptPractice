@@ -12,7 +12,14 @@ export const PostBook = () => {
       <h1>Post Book</h1>
       Add Post:
       <input onChange={(e) => setList(e.target.value)} value={list} />
-      <Button handleClick={() => setAddLists([...addLists, list])}>Save</Button>
+      <Button
+        handleClick={() => {
+          setAddLists([...addLists, list]);
+          setList("");
+        }}
+      >
+        Save
+      </Button>
       {addLists.map((addList) => (
         <ul>
           <li>{addList}</li>

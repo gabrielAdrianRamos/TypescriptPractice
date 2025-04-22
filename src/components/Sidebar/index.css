@@ -1,0 +1,10 @@
+.sidebar {
+  background-color: gray;
+  padding: 5px;
+  padding-bottom: 15px;
+  font-size: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white;
+  width: 200px;
+}
