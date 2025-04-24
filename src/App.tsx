@@ -1,5 +1,6 @@
 import { Button } from "./components/Buttons";
 import { Homepage } from "./components/Homepage";
+import { ReduceComponent } from "./components/Hooks/ReduceComponent";
 import { Keys } from "./components/Keys";
 import { NavBar } from "./components/NavBar";
 import { Post } from "./components/Post";
@@ -16,6 +17,7 @@ function App() {
       <PostBook />
       <NavBar buttons={["Home", "About"]} selected="Home" />
       <Homepage />
+      <ReduceComponent />
     </>
   );
 }
